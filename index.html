@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Angular JS
+		</title>
+		 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+		
+		</head>
+
+	<body>
+    <div ng-app="myapp">
+       
+       <input ng-model="mymodel">  HELLO WORLD
+       <div>{{mymodel}}</div>  
+
+       <div>step1.I have declared the angular module for the hello World.<br>
+             step2.There is a input box even we can type message , which is hold by the model ,
+         at the bottom the input the message will be display, this is occured due to view because 
+         view will display the what ever message hold by the model.
+       </div>
+            
+    </div>
+    <script>
+    angular.module('myapp',[]);
+    </script> 
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+
+//Angular //Sample for Hello World
+step1.I have declared the angular module for the hello World.
+step2.There is a input box even we can type message , which is hold by the model ,
+at the bottom the input the message will be display, this is occured due to view because 
+view will display the what ever message hold by the model.
